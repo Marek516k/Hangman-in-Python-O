@@ -14,8 +14,6 @@ class hangman:
             else:
                 print("Špatné písmeno")
                 self.zivoty-=1
-        if self.zivoty>=1:
-            print("W pogger's", self.slovo, "je správně")
         else:
             print("Skápl si slovo bylo", self.slovo)
             
